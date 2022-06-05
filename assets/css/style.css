@@ -1,0 +1,69 @@
+/* import Google font */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Jost:wght@200&display=swap');
+
+/* clear default formatting */ 
+
+* {
+    margin: 0; 
+    padding: 0;
+    border: none;
+}
+
+/* body style */ 
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    color: #2C2A2E; 
+    background-color: #BCAC94;
+}
+
+/* headings and logo style */ 
+
+h1, h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+#logo {
+    float: left;
+    color: #2C2A2E;
+    background-color: #BCAC94;
+    margin-left: 20px;
+    font-size: 250%;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+/* menu styles */ 
+
+#menu {
+    font-size: 120%;
+    background-color: #BCAC94;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    margin-right: 40px;
+    float: right;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px dashed #2C2A2E;
+}
+
+.active {
+    border-bottom: 1px solid #2C2A2E;
+}
