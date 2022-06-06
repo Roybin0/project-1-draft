@@ -78,3 +78,53 @@ h1, h2 {
 #hero-image {
     clear: both;
 }
+
+/* footer styling */ 
+
+#footer-container {
+    clear: both; 
+    height: 110px;
+    width: 100%; 
+    background-color: #2C2A2E;
+    color: #BCAC94;
+}
+
+#contact-info {
+    float: left;
+    text-align: center;
+    margin-left: 20%;
+}
+
+#contact-info h3, #social-media h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+#contact-info li {
+    list-style-type: none;
+}
+
+#contact-info a {
+    text-decoration: underline; 
+    color: #BCAC94;
+}
+
+#social-media {
+    float: right;
+    text-align: center;
+    margin-right: 20%;
+}
+
+#social-media li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+#social-media a {
+    color: #BCAC94;
+}
+
