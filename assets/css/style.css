@@ -41,7 +41,7 @@ h1, h2 {
 
 /* navigation styles */ 
 
-.menu-container {
+#menu-container {
     clear: left; 
     height: 40px;
     background-color: #2C2A2E;
