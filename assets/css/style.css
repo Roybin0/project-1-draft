@@ -32,38 +32,49 @@ h1, h2 {
     background-color: #BCAC94;
     margin-left: 20px;
     font-size: 250%;
+    line-height: 75px;
 }
 
 #logo a {
     text-decoration: none;
 }
 
-/* menu styles */ 
+/* navigation styles */ 
+
+.menu-container {
+    clear: left; 
+    height: 40px;
+    background-color: #2C2A2E;
+    text-align: center;
+}
 
 #menu {
     font-size: 120%;
-    background-color: #BCAC94;
-}
-
-#menu, #logo {
-    line-height: 75px;
+    width: 80%;
+    margin: auto;
 }
 
 #menu li {
-    margin-right: 40px;
-    float: right;
     list-style-type: none;
+    display: inline;
+    padding-right: 5%;
 }
 
 #menu a {
     text-decoration: none; 
-    color: inherit;
+    color: #BCAC94;
 }
 
 #menu a:hover {
-    border-bottom: 1px dashed #2C2A2E;
+    border-bottom: 1px dashed #8B7974;
 }
 
 .active {
-    border-bottom: 1px solid #2C2A2E;
+    border-bottom: 1px solid #8B7974;
+}
+
+/* hero image styling */ 
+
+#hero-image {
+    clear: both;
 }
