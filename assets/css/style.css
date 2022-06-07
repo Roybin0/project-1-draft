@@ -143,3 +143,17 @@ h1, h2 {
     background: url("../images/allosaur-skeleton.jpeg") no-repeat center center;
 }
 
+/* Mesozoic overview styling */ 
+
+#mesozoic-overview {
+    width: 100%;
+    height: 600px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+}
+
+#geo-timeline {
+    width: 100%; 
+    height: 100%;
+}
